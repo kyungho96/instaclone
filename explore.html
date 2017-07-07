@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Feed | Instaclone</title>
+		<title>Explore | Instaclone</title>
 		<meta charset = "utf-8">
 		<meta description = "Instaclone Login">
 		<link href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -49,56 +49,28 @@
 
 <!-- main: photo feed display -->
 
-	<main id="feed">
-		<article class="photo__header">
-			<header class="photo__header">
-				<img
-				src="images/avatar.jpg" 
-				alt="avatar__image"
-				title="avatar__image"
-				/>
+	<main id="explore">
+		<div class="people">
+			<ul class="people__List">
+				<li class="thread__photo">
+			
+					<img 
+					src="images/thread.jpg" 
+					alt="thread__image"
+					title="thread_-image"
+					/>
+				
+					<div class="thread__info">
+						<span class="thread__info--id">jihyo_twice</span>
+						<span class="thread__info--name">Jihyo Park</span>
+					</div>
 
-				<div class="photo__info">
-					<span class="photo__author">Jihyo</span>
-					<span class="photo__location">Dire Dawa</span>
-				</div>
-			</header>
+					<button class="thread_follow" type="button">Follow</button>			
+				
+				</li>
+			</ul>
+		</div>
 
-			<img
-				src="images/feedPhoto.jpg" 
-				alt="main__feedphoto"
-				title="main__feedphoto"
-				class="photo__image"
-			/>
-		
-			<div class="photo__main">
-
-				<div class="photo__actions">
-					<i class="fa fa-heart-o fa-2x"></i>
-					<i class="fa fa-comment-o fa-2x"></i>
-				</div>
-
-				<span class="photo__likes">2,989 likes</span>
-
-				<ul>
-					<li class="photo__comment">
-						<span class="photo__comment--author">Serranoarevalo</span> omg this is great
-					</li>
-
-					<li class="photo__comment">
-						<span class="photo__comment--author">Serranoarevalo</span> omg this is great
-					</li>
-				</ul>
-
-				<span class="photo__date">13 hours ago</span>
-
-				<div class="photo__addcomment-container">
-					<textarea class="photo__addcomment-area" name="comment" placeholder="Add a comment..."></textarea>
-				</div>
-                <i class="fa fa-ellipsis-h"></i>
-
-			</div>
-		</article>
 	</main>
 		
 <!-- footer: under sidebar-->

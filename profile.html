@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Feed | Instaclone</title>
+		<title>Profile | Instaclone</title>
 		<meta charset = "utf-8">
 		<meta description = "Instaclone Login">
 		<link href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -49,56 +49,68 @@
 
 <!-- main: photo feed display -->
 
-	<main id="feed">
-		<article class="photo__header">
-			<header class="photo__header">
+	<main id="profile">
+
+		<header class="profile__header">
+			
+			<!-- Profile Image Part -->
+			<div class="profile__image-container">
+				
 				<img
-				src="images/avatar.jpg" 
-				alt="avatar__image"
-				title="avatar__image"
+					class="profile__avatar"
+					src="images/avatar.jpg" 
+					alt="profile__image" 
+					title="profile__image"
 				/>
 
-				<div class="photo__info">
-					<span class="photo__author">Jihyo</span>
-					<span class="photo__location">Dire Dawa</span>
-				</div>
-			</header>
+			</div>
 
-			<img
-				src="images/feedPhoto.jpg" 
-				alt="main__feedphoto"
-				title="main__feedphoto"
-				class="photo__image"
-			/>
-		
-			<div class="photo__main">
-
-				<div class="photo__actions">
-					<i class="fa fa-heart-o fa-2x"></i>
-					<i class="fa fa-comment-o fa-2x"></i>
+			<!-- Profile Info Part-->
+			<div class="profile__info">
+				
+				<!-- Name, Edit Profile, Settings-->
+				<div class="profile__name">
+					<li>
+						<h2 class="profile__name-name">al_kyungpark</h2>
+						<button class="profile__name-button" type="button"> <a href="edit.html">Edit Profile</a></button>
+						<button class="profile__name-setting" type="button"><a href="edit.html">
+							<i class="fa fa-cog"></i>
+						</a></button>
+					</li>
 				</div>
 
-				<span class="photo__likes">2,989 likes</span>
-
-				<ul>
-					<li class="photo__comment">
-						<span class="photo__comment--author">Serranoarevalo</span> omg this is great
+				<!-- posts, followers, following -->
+				<ul class="profile__status">
+					<li class="profile__status-post">
+						<span class="post__num">312</span>
+						post
 					</li>
 
-					<li class="photo__comment">
-						<span class="photo__comment--author">Serranoarevalo</span> omg this is great
+					<li class="profile__status-follower">
+						<span class="follower__num">284</span>
+						followers
+					</li>
+
+					<li class="profile__status-following">
+						<span class="following__num">282</span>
+						following
 					</li>
 				</ul>
+				
+				<!-- name, explanation -->
+				<div class="profile__explanation">
+					<ul>
+						<span class="explanation__name">
+							Alex Kyungho Park
+						</span>
+					
+						Fuck you HTML
 
-				<span class="photo__date">13 hours ago</span>
-
-				<div class="photo__addcomment-container">
-					<textarea class="photo__addcomment-area" name="comment" placeholder="Add a comment..."></textarea>
+					</ul>
 				</div>
-                <i class="fa fa-ellipsis-h"></i>
 
 			</div>
-		</article>
+		</header>
 	</main>
 		
 <!-- footer: under sidebar-->
