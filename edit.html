@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Image Detail | Instaclone</title>
+		<meta charset = "utf-8">
+		<meta description = "Instaclone Login">
+		<link href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+<!-- upper head side -->
+	<!-- the left logo column -->
+
+	<nav class="navigation">
+		<div class="navigation__column">
+			<a href="feed.html">
+				<img
+				src="images/feed_logo.png"
+				alt="feed_logo"
+				title="feed_logo"
+				/>
+			</a>
+		</div>
+
+	<!-- search -->
+
+		<div class="navigation__column">
+			<i class="fa fa-search"></i>
+			<input type="text" placeholder="Search">
+		</div>
+
+	<!-- the right three columns -->
+		<div class="navigation__column">
+			<a href="explore.html" class="navigation__link">
+				<i class="fa fa-compass"></i>
+			</a>
+
+			<a href="#" class="navigation__link">
+				<i class="fa fa-heart-o"></i>
+			</a>
+
+			<a href="profile.html" class="navigation__link">
+				<i class="fa fa-user-o"></i>
+			</a>
+
+		</div>
+	</nav>
+
+<!-- main: image-detail -->
+
+		<main class="edit__profile">
+
+			<!-- avatar image & name-->
+			<div class="edit__user">
+				
+				<img
+				class="edit_user-avatar" 
+				src="images/avatar.jpg" 
+				alt="user__image"
+				/>
+
+				<h2 class="edit__user-profile">
+					Alex Kyungho Park
+				</h2>
+			</div>
+
+			<!--input form-->
+			<form>
+				<div class="edit__profile-row">
+					<label for="name"></label>
+					<input type="text" id="name" value="Alex Park">
+				</div>
+
+				<div class="edit__profile-row">
+					<label for="username"></label>
+					<input type="text" id="username">
+				</div>
+
+				<div class="edit__profile-row">
+					<label for="website"></label>
+					<input type="text" id="website">
+				</div>
+
+				<div class="edit__profile-row">
+					<label for="bio"></label>
+					<input type="text" id="bio">
+				</div>
+
+				<div class="edit__profile-row">
+					<label for="email"></label>
+					<input type="text" id="email">
+				</div>
+
+				<div class="edit__profile-row">
+					<label for="Phone number"></label>
+					<input type="text" id="Phone number">
+				</div>
+				
+
+                <div class="edit-profile__row">
+                    <label for="gender">Gender</label>
+                    <select id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="not">Whatever</option>
+                    </select>
+                </div>
+
+                <div class="edit-profile__row">
+                    <span>Similar Account Suggestions</span>
+                    <input type="checkbox" id="similar" checked>
+                    <label for="similar">Include your account when recommending similar accounts people might want to follow. <a href="#">[?]</a></label>
+                </div>
+
+                <div class="edit-profile__row">
+                    <label></label>
+                    <input type="submit" value="Submit">
+                </div>
+
+			</form>
+			
+		</main>
+		
+<!-- footer: under sidebar-->
+		<footer>
+			<nav class="footer__nav">
+				<ul class="footer__list">
+					<li class="footer__item"><a href="#" class="footer_link">about us</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">support</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">blog</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">press</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">api</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">jobs</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">privacy</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">terms</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">directory</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">langage</a></li>
+				</ul>
+			</nav>
+			<span class="footer__copyright">© 2017 Instagram</span>
+
+		</footer>
+
+	</body>
+</html>
