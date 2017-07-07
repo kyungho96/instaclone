@@ -2,5 +2,109 @@
 <html lang="en">
 	<head>
 		<title>Login | Instaclone</title>
+		<meta charset = "utf-8">
+		<meta description = "Instaclone Login">
 	</head>
+
+	<body>
+		<main>
+
+<!--Left side image of Instagram-->
+			<div id ="phone-image">
+				<img
+				 src="images/phoneImage.png"
+				 alt="Phone image"
+				 title="Phone image"
+				/>
+			</div>
+
+<!--Right side Login box of Instagram-->
+
+<!--Logo-->
+			<section id="login">
+				<div class="login__box">
+					<img
+					 src="images/logoLogin.png"
+					 alt="Logo login"
+					 title="Logo login"
+					/>
+
+					<form action="feed.html" method="GET">
+						<input
+							type="text"
+							name="username"
+							placeholder ="Username"
+							required
+							class="login__input"
+						/>
+
+						<div class="login__form--box">
+							<input
+								type="text"
+								name="potato"
+								placeholder="Password"
+								required
+								class="login__form--box"
+							/>
+							<a href ="#">Forgot?</a>
+						</div>
+						<input type="submit" value="Log in">
+					</form>
+					<span class="login__form--divider">or</span>
+					<a href="#" class="login__form--facebook">
+						<img src="images/facebook.png" alt="facebook__login">
+						Log in with Facebook
+					</a>
+
+				</div>
+			
+				<div class="login__box">
+					<span class="login__text">
+						Don't have an account?						
+					</span>
+					<a href="#" class="login__text">Sign up</a>
+				</div>
+				
+				<div class="login__box--transparent">
+						<span class="login__text">
+							Get the app.
+						</span>
+
+					<div class="login__text">
+						<img
+						src="images/ios.png" 
+						alt="ios download"
+						title="ios download"
+						/>
+
+						<img 
+						src="images/android.png" 
+						alt="android download"
+						title="android download"
+						/>
+					</div>
+				</div>
+			</section>
+		</main>
+		
+<!-- footer: under sidebar-->
+		<footer>
+			<nav class="footer__nav">
+				<ul class="footer__list">
+					<li class="footer__item"><a href="#" class="footer_link">about us</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">support</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">blog</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">press</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">api</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">jobs</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">privacy</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">terms</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">directory</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">langage</a></li>
+				</ul>
+			</nav>
+			<span class="footer__copyright">© 2017 Instagram</span>
+
+		</footer>
+	</body>
 </html>
