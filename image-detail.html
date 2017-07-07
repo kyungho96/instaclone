@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Image Detail | Instaclone</title>
+		<meta charset = "utf-8">
+		<meta description = "Instaclone Login">
+		<link href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+<!-- upper head side -->
+	<!-- the left logo column -->
+
+	<nav class="navigation">
+		<div class="navigation__column">
+			<a href="feed.html">
+				<img
+				src="images/feed_logo.png"
+				alt="feed_logo"
+				title="feed_logo"
+				/>
+			</a>
+		</div>
+
+	<!-- search -->
+
+		<div class="navigation__column">
+			<i class="fa fa-search"></i>
+			<input type="text" placeholder="Search">
+		</div>
+
+	<!-- the right three columns -->
+		<div class="navigation__column">
+			<a href="explore.html" class="navigation__link">
+				<i class="fa fa-compass"></i>
+			</a>
+
+			<a href="#" class="navigation__link">
+				<i class="fa fa-heart-o"></i>
+			</a>
+
+			<a href="profile.html" class="navigation__link">
+				<i class="fa fa-user-o"></i>
+			</a>
+
+		</div>
+	</nav>
+
+<!-- main: image-detail -->
+
+		<main class = "image__detail">
+
+			<!--image part on the left-->
+			<div class="image__detail__photo">
+				<img
+					src="images/feedPhoto.jpg" 
+					alt="main__detailphoto"
+					title="main__detailphoto"
+					class="image__detail-photo"
+				/>
+			</div>
+
+			<!--info part on the right-->
+
+			<div class="info__detail">
+				
+				<!--header part-->
+				<header class="detail__user">
+					
+					<!--avatar image-->
+					<div class="detail__avatar">
+						<img 
+						src="images/avatar.jpg" 
+						alt="user__pics">
+					</div>
+
+					<!--author & location-->
+					<div class="detail__al">
+						<span class="detail__author">Jihyo</span>
+						<span class="detail__location">Dire Dawa</span>					
+					</div>
+				</header>
+
+				<!--comments-->
+				<ul>
+					<li class="detail__comment">
+						<span class="detail__comment--author">Serranoarevalo</span> omg this is great
+					</li>
+
+					<li class="detail__comment">
+						<span class="detail__comment--author">Serranoarevalo</span> omg this is great
+					</li>
+				</ul>
+
+				<!--icons-->
+				<div class="detail__actions">
+					<i class="fa fa-heart-o fa-2x"></i>
+					<i class="fa fa-comment-o fa-2x"></i>
+				</div>
+
+				<!--like status-->
+				<span class="detail__likes">2,989 likes</span>
+
+				<!--date-->
+				<span class="detail__date">29 hours ago</span>
+
+				<!--comment textarea-->
+				<div class="detail__addcomment-container">
+					<textarea class="detail__addcomment-area" name="comment" placeholder="Add a comment...">
+					</textarea>
+				</div>
+	            <i class="fa fa-ellipsis-h"></i>
+
+			</div>
+		</main>
+		
+<!-- footer: under sidebar-->
+		<footer>
+			<nav class="footer__nav">
+				<ul class="footer__list">
+					<li class="footer__item"><a href="#" class="footer_link">about us</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">support</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">blog</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">press</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">api</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">jobs</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">privacy</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">terms</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">directory</a></li>
+					<li class="footer__item"><a href="#" class="footer_link">langage</a></li>
+				</ul>
+			</nav>
+			<span class="footer__copyright">© 2017 Instagram</span>
+
+		</footer>
+
+	</body>
+</html>
