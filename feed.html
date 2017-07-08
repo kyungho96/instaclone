@@ -5,11 +5,12 @@
 		<meta charset = "utf-8">
 		<meta description = "Instaclone Login">
 		<link href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	</head>
 
 	<body>
 
-<!-- upper head side -->
 	<!-- the left logo column -->
 
 	<nav class="navigation">
@@ -46,16 +47,15 @@
 
 		</div>
 	</nav>
-
 <!-- main: photo feed display -->
 
 	<main id="feed">
-		<article class="photo__header">
+		<article class="photo__container">
 			<header class="photo__header">
 				<img
+				class="photo__avatar"
 				src="images/avatar.jpg" 
 				alt="avatar__image"
-				title="avatar__image"
 				/>
 
 				<div class="photo__info">
@@ -65,6 +65,7 @@
 			</header>
 
 			<img
+				class="insta__image"
 				src="images/feedPhoto.jpg" 
 				alt="main__feedphoto"
 				title="main__feedphoto"
@@ -80,7 +81,7 @@
 
 				<span class="photo__likes">2,989 likes</span>
 
-				<ul>
+				<ul class="comments">
 					<li class="photo__comment">
 						<span class="photo__comment--author">Serranoarevalo</span> omg this is great
 					</li>
@@ -94,8 +95,9 @@
 
 				<div class="photo__addcomment-container">
 					<textarea class="photo__addcomment-area" name="comment" placeholder="Add a comment..."></textarea>
+					<i class="fa fa-ellipsis-h"></i>
 				</div>
-                <i class="fa fa-ellipsis-h"></i>
+                
 
 			</div>
 		</article>

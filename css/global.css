@@ -1,0 +1,19 @@
+/* To set the global font environment */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    background-color: #FAFAFA;
+}
+
+main, footer{
+	max-width: 1000px;
+}
+
+a {
+	color:#003569;
+}
+
+main{
+	margin-top: ;
+}

@@ -1,0 +1,137 @@
+#feed{
+	max-width: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*overall container*/
+.photo__container{
+	width: 600px;
+	margin-top: 60px;
+}
+
+/*profile*/
+
+.photo__header{
+	background-color: white;
+	display: flex;
+	align-items: center;
+	width: 600px;
+	height: 62px;
+	border: 1px solid #e6e6e6;
+	padding-left: 17px;
+	box-sizing: border-box;
+}
+
+.photo__avatar{
+	width: 32px;
+	height: 32px;
+	border-radius: 50%
+}
+
+.photo__author{
+	text-align: left;
+    margin-right: auto;
+    margin-left: 15px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.photo__location{
+	text-align: left;
+    margin-right: auto;
+    margin-left: 15px;
+    color: #999;
+}
+
+/*insta photo*/
+.insta__image{
+	border : 1px solid #e6e6e6;
+	max-width:599px;
+	height:600px;
+}
+
+/* likes, comments */
+.photo__main{
+	background-color: white;
+	width:600px;
+	border: 1px solid #e6e6e6;
+	display:block;
+}
+
+.photo__actions{
+	padding: 11px 15px 11px 15px;
+	display: flex;
+	align-items: center;
+}
+
+.photo__actions i{
+	font-size: 22px;
+	margin-right: 16px;	
+}
+
+.fa-comment-o {
+	padding-bottom: 4px
+}
+
+.photo__likes{
+	padding-left: 13px;
+	margin-bottom: 17px;
+	font-size:13px;
+	font-weight: 600;
+
+}
+
+.comments{
+	margin-top: 13px;
+	padding-left:13px;
+	margin-bottom: 17px;
+	display: block;
+}
+
+.photo__comment{
+	margin-bottom: 11px;
+	font-size:13px;
+
+}
+
+.photo__comment--author{
+	font-weight: 600;
+}
+
+.photo__date{
+	padding-left:13px;
+	font-size:12px;
+	color: #A7A7A7;
+}
+
+.photo__addcomment-container{
+	margin-left:13px;
+	margin-top:15px;
+}
+
+.photo__addcomment-container textarea {
+	padding-top: 18px;
+	position: relative;
+}
+
+.photo__addcomment-area{
+	width:570px;
+	border: none;
+	border-top: 1px solid #e6e6e6;
+}
+
+.photo__addcomment-container{
+	position: relative;
+}
+
+.photo__addcomment-container i{
+	color: #1D1D1D;
+	position: absolute;
+	padding-top: 20px;
+	padding-right: 18px;
+	top :0;
+	right:0;
+
+}
