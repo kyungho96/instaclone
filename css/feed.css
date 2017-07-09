@@ -12,7 +12,7 @@
 	max-width:100%;
 	margin-top: 60px;
 	border: 1px solid #e6e6e6;
-
+}
 /*profile*/
 
 
@@ -127,6 +127,7 @@
 .photo__addcomment-container{
 	margin-left:13px;
 	margin-top:15px;
+	box-sizing: border-box;
 }
 
 .photo__addcomment-container textarea {
