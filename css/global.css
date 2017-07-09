@@ -16,4 +16,17 @@ a {
 
 main{
 	margin-top: ;
+	animation: 0.5s fadeMain linear;
+}
+
+@keyframes fadeMain{
+	from{
+		transform: translateY(-10px);
+		opacity:0;
+	}
+
+	to{
+		transform: none;
+		opacity:1;
+	}
 }

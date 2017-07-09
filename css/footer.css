@@ -13,12 +13,14 @@ footer{
 /*always container design shold be given for father*/
 ul{
 	display: flex;
+	flex-wrap: wrap;
 }
 
 /*for second, specific design for each class & id*/
 .footer__nav{
 	display: flex; /*make the element of the list stay responsive*/
 	list-style: none; /*erase the dot of the list*/
+	flex-wrap: wrap;
 }
 
 .footer__item{
