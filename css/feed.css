@@ -8,14 +8,11 @@
 
 /*overall container*/
 .photo__container{
-<<<<<<< HEAD
 	max-width: 600px;
-=======
 	max-width:100%;
->>>>>>> master
 	margin-top: 60px;
 	border: 1px solid #e6e6e6;
-}
+
 /*profile*/
 
 
